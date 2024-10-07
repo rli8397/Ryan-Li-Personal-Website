@@ -1,12 +1,13 @@
-p {
-    font-size: large;
-    color: #0FA3B1;
-}
 h1 {
     font-size: 4rem;
 }
 h2 {
+    width: 5rem;
     font-size: 2rem;
+}
+p {
+    font-size: large;
+    color: #0FA3B1;
 }
 li {
     color: #0FA3B1;
@@ -20,13 +21,34 @@ body {
 }
 
 #headshot {
-    border: 1rem solid #EDDEA4;
+    padding-left: 1.6rem;
+    border: 1rem;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
+    width: 10rem;
 }
 
 .center {
     text-align: center;
+}
+#introBlock{
+    padding-left: 6rem;
+    width: 25%;
+    float: left;
+}
+
+#info {
+    padding-top: 2rem;
+    width: 30%;
+    float: left;
+}
+
+#pictureBlock{
+    width: 10%;
+    float: left;
+    padding-left: 5rem;
+    padding-top: 3rem;
+}
+
+.photo {
+    border: 1rem solid rgba(0,0,0,0);
 }
