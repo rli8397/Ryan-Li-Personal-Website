@@ -31,8 +31,10 @@
     font-weight: 500;
     margin-left:1rem;
 }
+
 .navbar a:hover, .navbar a.active{
     color:#C1EEFF;
+    cursor: pointer;
 }
 
 .home {
