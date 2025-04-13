@@ -80,3 +80,15 @@
     </div>
 </body>
 </html>
+
+function togglePicture() {
+    const picture = document.getElementById("secret-picture") 
+    const secretButton = documenet.getElementById("show-picture-button")
+    if (picture.classList.contains("hidden")) {
+        picture.classList.remove("hidden")
+        secretButton.innerHTML = "hide picture"
+    } else {
+        picture.classList.add("hidden")
+        secretButton.innerHTML = "super secret picture"
+    }
+}

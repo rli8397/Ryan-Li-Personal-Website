@@ -1,0 +1,25 @@
+HTML tags used
+1. nav
+2. div
+3. p
+4. h1
+5. a
+6. ul
+7. li
+8. button
+9. ol
+10. input
+
+CSS properties used
+1. display
+2. margin
+3. background color
+4. cursor
+5. align-items
+
+Boostrap component:
+I used the boostrap to style my navbar between pages
+
+Javascript: 
+I used javascript to reveal a super secret picture on the homepage
+
